@@ -6,7 +6,7 @@ import {
   signout,
   test,
   updateUser,
-} from '../controllers/user.controller.js';
+} from '../controllers/usercontroller.js';
 import { verifyToken } from '../utils/verifyUser.js';
 
 const router = express.Router();

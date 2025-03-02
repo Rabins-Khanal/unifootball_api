@@ -1,5 +1,5 @@
 import express from 'express';
-import { create, deletefixture, getfixtures, updatefixture } from '../controllers/fixture.controller.js';
+import { create, deletefixture, getfixtures, updatefixture } from '../controllers/fixturecontroller.js';
 import { verifyToken } from '../utils/verifyUser.js';
 
 const router = express.Router();
