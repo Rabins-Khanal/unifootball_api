@@ -3,11 +3,11 @@ import dotenv from 'dotenv';
 import express from 'express';
 import mongoose from 'mongoose';
 import path from 'path';
-import authRoutes from './routes/auth.route.js';
-import commentRoutes from './routes/comment.route.js';
-import fixtureRoutes from './routes/fixture.route.js';
-import postRoutes from './routes/post.route.js';
-import userRoutes from './routes/user.route.js';
+import authRoutes from './routes/authroute.js';
+import commentRoutes from './routes/commentroute.js';
+import fixtureRoutes from './routes/fixtureroute.js';
+import postRoutes from './routes/postroute.js';
+import userRoutes from './routes/userroute.js';
 
 dotenv.config({ path: './config.env' });
 
