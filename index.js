@@ -5,6 +5,7 @@ import mongoose from 'mongoose';
 import path from 'path';
 import authRoutes from './routes/authroute.js';
 import commentRoutes from './routes/commentroute.js';
+import fixtureRoutes from './routes/fixtureroute.js';
 import postRoutes from './routes/postroute.js';
 import userRoutes from './routes/userroute.js';
 
@@ -35,7 +36,7 @@ app.use('/api/user', userRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/post', postRoutes);
 app.use('/api/comment', commentRoutes);
-
+app.use('/api/fixture', fixtureRoutes);
 
 app.use(express.static(path.join(__dirname, '/client/dist')));
 
